@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.menu {
+    height: 50px;
+    padding-top: 40px;
+    padding-left: 1000px;
+    word-spacing: 25px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Default active state for the Home link */
+.menu a.home {
+    color: white;
+    border: 1px dotted grey;
+    font-weight: bold;
+}
+
+/* Hover and focus effect */
+.menu a:hover, .menu a:focus {
+    color: white;
+    font-weight: bold;
+    border: 1px dotted grey;
+    transition: none;
+}
+
+.hello {
+    position: absolute;
+    color: lightgrey;
+    display: block;
+    align-items: center;
+    padding-left: 700px;
+    padding-top: 200px;
+    font-size: 50px;
+    font-family: Georgia;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.Profile {
+    display: block;
+    border: none;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 500px;
+    align-items: center;
+}
+
+.excla {
+    position: absolute;
+    color: yellowgreen;
+    display: block;
+    align-items: center;
+    margin-left: 1040px;
+    padding-top: 200px;
+    font-size: 55px;
+    font-family: Georgia;
+    font-weight: lighter;
+}
+
+.description {
+    position: absolute;
+    top: 450px;
+    left: 710px;
+    font-size: 50px;
+    color: red;
+    font-family: 'Georgia', serif;
+    font-weight: lighter;
+}
+
+.dynamic-text {
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
+    height: 1em; 
+}
+
+.dynamic-text span {
+    display: block;
+    animation: rotateText 8s linear infinite;
+}
+
+@keyframes rotateText {
+    0%, 25% {
+        transform: translateY(0%);
+    }
+    26%, 50% {
+        transform: translateY(-100%);
+    }
+    51%, 75% {
+        transform: translateY(-200%);
+    }
+    76%, 100% {
+        transform: translateY(-300%);
+    }
+}
+
+.myname {
+    position: absolute;
+    color: white;
+    display: block;
+    align-items: center;
+    padding-left: 600px;
+    margin-top:270px;
+    font-size: 40px;
+    font-family: Georgia;
+    font-weight: light;
+}
+
+.and {
+    position: absolute;
+    color: white;
+    display: block;
+    align-items: center;
+    padding-left: 850px;
+    margin-top:310px;
+    font-size: 50px;
+    font-family: Georgia;
+    font-weight: light;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
